@@ -12,7 +12,6 @@ sudo systemctl status docker --no-pager || sudo systemctl start docker
 docker container inspect jrvs-psql
 container_status=$?
 
-
 # User switch case to handle create|stop|start operations
 case $cmd in
   create)
@@ -57,5 +56,3 @@ case $cmd in
     exit 1
     ;;
 esac
-
-
