@@ -1,64 +1,44 @@
 # Chris Wan . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+Graduate from the University of Toronto with a degree in Computer Science. My academic journey has equipped me with a strong foundation in programming and software principles such as clean code, maintainability, and effective debugging. Professionally, I have interned at Autodesk and Salesforce. At Autodesk, I implemented new SDK features, reducing non-compliance incidents and technical debt by adhering to best practices in code refactoring. At Salesforce, I optimized SOQL queries and designed custom solutions, improving data processing efficiency and user engagement through robust design and testing. I've also worked on notable projects like UTAP, a Teaching Assistant application portal, and UTMQuest, an online learning tool. These experiences allowed me to enhance my skills in Python, React, PostgreSQL, and other technologies while focusing on high code quality and test coverage. I am passionate about using technology to solve problems and create impactful solutions while following good software engineering principles.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Python, Java, JavaScript, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Docker
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** React.js, Node.js, MongoDB, Express.js, Pandas
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** Google Cloud Platform, Kubernetes, C/C++, TanStack Query (React Query), Redis
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ChrisWan](https://github.com/jarviscanada/jarvis_data_eng_ChrisWan)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ChrisWan/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_ChrisWan/tree/master/linux_sql)]: A Minimum viable product to efficiently manage a 10 servers/nodes cluster running Rocky OS. These servers are internally connected through a switch, and are able to communicate through internal IPv4 addresses. Bash scripts were written to facilitate esy monitoring of hardware and usage information for each node in real-time. The collected data is stored in a PostgresSQL (psql) database for reliable data storage. The entire project is deployed within a Docker container to ensure consistent execution and compatibility and development progress is tracked using Git version control. The collected data from this solution will be utilized to generate comprehensive reports, which will inform future resource planning decisions, such as the addition or removal of servers. This will enable the team to optimize resource allocation and ensure efficient cluster management.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Utap**: Contributed to UofT UTAP, a Teaching Assistant application portal, handling 1000+ student applications. Utilized Python Requests to access UofT's timetable API, retrieving and storing 1400+ courses in PostgreSQL. Redesigned flexible test data for a staging environment to meet application workflows achieving 100% test coverage. Engineered custom React modal components to mitigate risks associated with student assignment to conflicting PRA/LEC sessions for professors, reducing assignment errors by 60% and optimizing scheduling processes by 40%.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**UTMQuest**: Developed an online learning tool with a user-driven question repository, supporting 300+ students.  Analyzed 50+ test data and graphs to identify scalable sections. Used Artillery.io for load testing, executed Linux and Bash scripts for system monitoring, and configured lab computers with Virtual Machines for testing. Enhanced database query efficiency by 54% through TanStack Query and Redis integration, while also leveraging MongoDB's skip and limit functionalities for pagination, resulting in a 67% performance enhancement.
+
+**NoteIt** [[GitHub](https://github.com/chriswan12/ConuHacks)]: Built a web application that summarizes video transcripts using NLP reducing total text by up to 70%, won Best Use of Google Cloud amongst 131 number of participants
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer Intern, Autodesk (May 2022 - Aug 2022)**: Implemented and launched new L8 SDK purge features to comply with EU data collection regulations, significantly reducing non-compliance incidents and effectively mitigating potential fines. Led a seamless migration from L8 SDK version 2.0 to 3.0, refactoring over 3,000+ lines of code to enhance maintainability by eliminating deprecated features, resulting in a 30% reduction in technical debt. Debugged and fixed a critical client software issue by implementing permanentRevisionId retrieval upon data revision, resulting in a 50% decrease in client-reported bugs and a 25% improvement in software stability metrics. Developed a User Acceptance Testing (UAT) application leveraging four Autodesk Automation APIs, facilitating testing of over 30 custom and predefined Autodesk JSON models. Increased test coverage by 20% through unit, functional, and integration testing with Jest, Jasmine, and Cucumber.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Development Intern, Salesforce (Formerly Traction on Demand) (Sept 2021- May 2022)**: Optimized Salesforce Queries efficiency by refining SOQL Query and DML statements, utilizing strategic SOQL Indexing and Selective Query Strategies to process over 50,000 records while surpassing heap and DML limits. Designed custom Salesforce solutions, including custom objects, fields, workflows, and validation rules, consistently meeting client-specific requirements and surpassing deadlines. Built a custom front-end component with the Lightning Web Components framework, using JavaScript, React, CSS, and HTML for an engaging UI. Designed and initiated unit testing strategies to uphold code coverage above 80% for projects.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
-
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**University of Toronto (Sept 2018 - Nov 2023)**, Bachelor of Computer Science, Mathematical and Computational Sciences
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- ConuHJacks VI Winner - Won Best Use of Google Cloud among 131 participants
+- Break Dancing
+- Played competitive league of legend in High School
+- Love the outdoors and fitness
