@@ -11,7 +11,7 @@ To build this project, I utilized several key technologies
 - Docker (To containerize the application, ensuring consistency across development)
 - Git (For version control and collaboration)
 - Postgres (For data management)
-- Crontab (A job scheduler)
+- Cron (A job scheduler)
 
 
 # Quick Start
