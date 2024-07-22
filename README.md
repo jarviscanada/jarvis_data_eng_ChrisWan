@@ -1,6 +1,6 @@
 # Chris Wan . Jarvis Consulting
 
-Graduate from the University of Toronto with a degree in Computer Science. My academic journey has equipped me with a strong foundation in programming and software principles such as clean code, maintainability, and effective debugging. Professionally, I have interned at Autodesk and Salesforce. At Autodesk, I implemented new SDK features, reducing non-compliance incidents and technical debt by adhering to best practices in code refactoring. At Salesforce, I optimized SOQL queries and designed custom solutions, improving data processing efficiency and user engagement through robust design and testing. I've also worked on notable projects like UTAP, a Teaching Assistant application portal, and UTMQuest, an online learning tool. These experiences allowed me to enhance my skills in Python, React, PostgreSQL, and other technologies while focusing on high code quality and test coverage. I am passionate about using technology to solve problems and create impactful solutions while following good software engineering principles.
+I am a graduate from the University of Toronto with a degree in Computer Science. My academic journey has equipped me with a strong foundation in programming and software principles such as clean code, maintainability, and effective debugging. Professionally, I have interned at Autodesk and Salesforce. At Autodesk, I implemented new SDK features, reducing non-compliance incidents and technical debt by adhering to best practices in code refactoring. At Salesforce, I optimized SOQL queries and designed custom solutions, improving data processing efficiency and user engagement through robust design and testing. I've also worked on notable projects like UTAP, a Teaching Assistant application portal, and UTMQuest, an online learning tool. These experiences allowed me to enhance my skills in Python, React, PostgreSQL, and other technologies while focusing on high code quality and test coverage. I am passionate about using technology to solve problems and create impactful solutions while following good software engineering principles.
 
 ## Skills
 
@@ -15,7 +15,7 @@ Graduate from the University of Toronto with a degree in Computer Science. My ac
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ChrisWan](https://github.com/jarviscanada/jarvis_data_eng_ChrisWan)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ChrisWan/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_ChrisWan/tree/master/linux_sql)]: A Minimum viable product to efficiently manage a 10 servers/nodes cluster running Rocky OS. These servers are internally connected through a switch, and are able to communicate through internal IPv4 addresses. Bash scripts were written to facilitate esy monitoring of hardware and usage information for each node in real-time. The collected data is stored in a PostgresSQL (psql) database for reliable data storage. The entire project is deployed within a Docker container to ensure consistent execution and compatibility and development progress is tracked using Git version control. The collected data from this solution will be utilized to generate comprehensive reports, which will inform future resource planning decisions, such as the addition or removal of servers. This will enable the team to optimize resource allocation and ensure efficient cluster management.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ChrisWan/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_ChrisWan/tree/master/linux_sql)]: A Minimum viable product to efficiently manage a 10 servers/nodes cluster running Rocky OS. These servers are internally connected through a switch, and are able to communicate through internal IPv4 addresses. Bash scripts were written to facilitate easy monitoring of hardware and usage information for each node in real-time. The collected data is stored in a PostgresSQL (psql) database for reliable data storage. The entire project is deployed within a Docker container to ensure consistent execution and compatibility and development progress is tracked using Git version control. The collected data from this solution will be utilized to generate comprehensive reports, which will inform future resource planning decisions, such as the addition or removal of servers. This will enable the team to optimize resource allocation and ensure efficient cluster management.
 
 
 ## Highlighted Projects
@@ -23,7 +23,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ChrisWan](
 
 **UTMQuest**: Developed an online learning tool with a user-driven question repository, supporting 300+ students.  Analyzed 50+ test data and graphs to identify scalable sections. Used Artillery.io for load testing, executed Linux and Bash scripts for system monitoring, and configured lab computers with Virtual Machines for testing. Enhanced database query efficiency by 54% through TanStack Query and Redis integration, while also leveraging MongoDB's skip and limit functionalities for pagination, resulting in a 67% performance enhancement.
 
-**NoteIt** [[GitHub](https://github.com/chriswan12/ConuHacks)]: Built a web application that summarizes video transcripts using NLP reducing total text by up to 70%, won Best Use of Google Cloud amongst 131 number of participants
+**NoteIt** [[GitHub](https://github.com/chriswan12/ConuHacks)]: Built a web application that summarizes video transcripts using NLP reducing total text by up to 70%, won Best Use of Google Cloud amongst 131 number of participants at a Hackathon (ConuHacks VI).
 
 
 ## Professional Experiences
@@ -38,7 +38,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ChrisWan](
 
 
 ## Miscellaneous
-- ConuHJacks VI Winner - Won Best Use of Google Cloud among 131 participants
-- Break Dancing
-- Played competitive league of legend in High School
+- ConuHacks VI Winner - Won Best Use of Google Cloud among 131 participants
+- I love breakdancing and was part of GDC (Graydon Dance Club), a breakdancing club in High School
+- Played competitive League of Legend in High School
 - Love the outdoors and fitness
