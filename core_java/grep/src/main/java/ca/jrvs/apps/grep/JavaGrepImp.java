@@ -1,20 +1,28 @@
 package ca.jrvs.apps.grep;
-
+import org.apache.log4j.BasicConfigurator;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
 public class JavaGrepImp implements JavaGrep {
 
+    final Logger logger = LoggerFactory.getLogger(JavaGrep.class);
+
     private String regex;
     private String rootPath;
     private String outFile;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         if (args.length != 3) {
             throw new IllegalArgumentException("USAGE: JavaGrep regex rootPath outFile");
         }
+
+        // Use default logger config
+        BasicConfigurator.configure();
 
         JavaGrepImp javaGrepImp = new JavaGrepImp();
         javaGrepImp.setRegex(args[0]);
@@ -24,7 +32,7 @@ public class JavaGrepImp implements JavaGrep {
         try {
             javaGrepImp.process();
         } catch (Exception e) {
-            System.out.print(e);
+            javaGrepImp.logger.error("Error: Unable to process", e);
         }
     }
 
@@ -42,6 +50,7 @@ public class JavaGrepImp implements JavaGrep {
 
             writeToFile(matchedLines);
         } catch (IOException ex) {
+            logger.debug("This error has occurred when trying to grep", ex);
             throw new IOException("An error had occurred when trying to grep");
         }
 
@@ -77,7 +86,7 @@ public class JavaGrepImp implements JavaGrep {
                 lines.add(line);
             }
         } catch (Exception e) {
-            System.out.print("A problem has occurred when reading from a file");
+            logger.debug("A problem has occurred when reading from a file", e);
         }
 
         return lines;
@@ -85,32 +94,35 @@ public class JavaGrepImp implements JavaGrep {
 
     @Override
     public boolean containsPattern(String line) {
-        String regex = getRegex();
-        // from this regex pass it into the Regex library and then match it with the line
-        // if it matches return true else false
+        try {
+            Pattern pattern = Pattern.compile(getRegex());
+            Matcher matcher = pattern.matcher(line);
+            return matcher.find();
+        } catch (Exception e) {
+            logger.debug("A problem has occurred when reading from a file", e);
+        }
+
         return false;
     }
 
     @Override
     public void writeToFile(List<String> lines) throws IOException {
-        Writer writer = null;
+
         try {
-            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(getOutFile()), StandardCharsets.UTF_8));
+
+            BufferedWriter bw = new BufferedWriter(
+                    new FileWriter(getOutFile())
+            );
+
             for (String line : lines ) {
-                writer.write(line);
+                bw.write(line);
+                bw.newLine();
             }
+            bw.close();
 
         } catch (IOException ex) {
+            logger.debug("Problem has occurred when writing to this file", ex);
             throw new IOException("Problem has occurred when writing to this file");
-        }
-        finally {
-            try {
-                if (writer != null) {
-                    writer.close();
-                }
-            } catch (Exception e) {
-                System.out.print("A problem has occurred with closing the file" + e);
-            }
         }
     }
 
