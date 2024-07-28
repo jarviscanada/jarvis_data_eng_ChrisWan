@@ -1,7 +1,9 @@
 package ca.jrvs.apps.grep;
+
 import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.io.*;
@@ -154,5 +156,26 @@ public class JavaGrepImp implements JavaGrep {
     @Override
     public void setOutFile(String outfile) {
         this.outFile = outfile;
+    }
+
+    public List<String> readFile (String fileName) {
+        List<String> result = new ArrayList<String>();
+        try {
+            String rootDir = System.getProperty("user.dir") + "/src/test/java/ca/jrvs/apps/grep/data/";
+            rootDir += fileName;
+            File file = new File(rootDir);
+            Scanner myReader = new Scanner(file);
+            while (myReader.hasNextLine()) {
+                String line = myReader.nextLine();
+                result.add(line);
+            }
+
+            return result;
+
+        } catch (Exception e) {
+            logger.debug("An error has occurred with the method readFile", e);
+        }
+
+        return result;
     }
 }
