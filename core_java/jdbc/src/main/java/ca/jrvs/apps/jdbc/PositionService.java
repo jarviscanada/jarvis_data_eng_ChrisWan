@@ -63,4 +63,8 @@ public class PositionService {
             dao.deleteById(ticker);
         }
     }
+
+    public Iterable<Position> displayAllRecords() {
+        return dao.findAll();
+    }
 }
