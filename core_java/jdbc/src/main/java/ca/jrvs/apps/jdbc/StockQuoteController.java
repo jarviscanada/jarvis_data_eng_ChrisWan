@@ -90,7 +90,7 @@ public class StockQuoteController {
             Optional<Quote> quote = quoteService.fetchQuoteDataFromAPI(symbol);
             if (quote.isPresent()) {
                 System.out.println("Here is the provided quote");
-                System.out.println(quote);
+                System.out.println(quote.toString());
             }
         } catch (IllegalArgumentException e){
             System.out.println("The provided stock symbol does not exist");
@@ -111,8 +111,8 @@ public class StockQuoteController {
         System.out.println("Welcome to the Stock Quote App, here are the following options you can choose from");
         System.out.println("Press 1 to see a stock quote");
         System.out.println("Press 2 to see all positions");
-        System.out.println("Press 3 to buy a stock");
-        System.out.println("Press 4 to sell a stock");
+        System.out.println("Press 3 to sell a stock");
+        System.out.println("Press 4 to buy a stock");
         System.out.println("Press 0 to exit this application");
     }
 
