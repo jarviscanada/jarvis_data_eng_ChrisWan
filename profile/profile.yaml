@@ -54,12 +54,14 @@ jarvis_projects:
      container to ensure consistent execution and compatibility and development progress is tracked using Git version control. 
      The collected data from this solution will be utilized to generate comprehensive reports, which will inform future resource planning decisions, such as the addition or removal of servers. 
      This will enable the team to optimize resource allocation and ensure efficient cluster management.
-#  - name: "Core Java Apps"
-#    git_url: "/core_java"
-#    description:
-#      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-#      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-#      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  - name: "Core Java Apps"
+    git_url: "https://github.com/jarviscanada/jarvis_data_eng_ChrisWan/tree/develop/core_java"
+    description:
+      - "Grep App: Grep is a Java-based application offering two efficient approaches for pattern searching within text files. The Stream-Based Approach utilizes
+      Java Streams and functional programming to process large datasets with minimal memory usage, ideal for handling massive files. The Traditional Approach uses conventional file
+      I/O and looping for moderate-sized files. Comprehensive unit testing with JUnit to ensure application correctness. Dockerizing the application facilitates east distribution and deployment."
+      - "JDBC App: The JDBC application is a robust system for performing essential CRUD operations (Create, Read, Update, Delete) on a database, utilizing the powerful JDBC API. It integrates a PostgreSQL 
+      database within a Docker container environment, with Maven as the package management and dependency resolution tool, and Git as the chosen version control system."
 #  - name: "Springboot App"
 #    git_url: "/springboot"
 #    description: ""
