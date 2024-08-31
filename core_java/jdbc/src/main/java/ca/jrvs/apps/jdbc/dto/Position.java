@@ -1,4 +1,4 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

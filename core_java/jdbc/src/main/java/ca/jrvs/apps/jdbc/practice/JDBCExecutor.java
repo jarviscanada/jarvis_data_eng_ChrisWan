@@ -1,9 +1,9 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.practice;
+
+import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 public class JDBCExecutor {
     public static void main(String[] args) {

@@ -1,4 +1,10 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.service;
+
+import ca.jrvs.apps.jdbc.dto.Quote;
+import ca.jrvs.apps.jdbc.dao.PositionDao;
+import ca.jrvs.apps.jdbc.dto.Position;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Optional;
 
@@ -6,6 +12,8 @@ public class PositionService {
 
     private PositionDao dao;
     private QuoteService quoteService;
+    static final Logger infoLogger = LoggerFactory.getLogger("infoLogger");
+    static final Logger errorLogger = LoggerFactory.getLogger("errorLogger");
 
     public PositionService(PositionDao dao, QuoteService quoteService) {
         this.dao = dao;
@@ -20,9 +28,9 @@ public class PositionService {
      * @return The position in our database after processing the buy
      */
     public Position buy(String ticker, int numberOfShares, double price) {
+        infoLogger.info("Buying a position");
         Optional<Position> position = Optional.of(new Position());
         Position newPosition = new Position();
-
         try {
             Optional<Quote> quote = quoteService.fetchQuoteDataFromAPI(ticker);
             if (quote.isEmpty()) {
@@ -45,7 +53,7 @@ public class PositionService {
             }
 
         } catch (IllegalArgumentException e) {
-            throw new RuntimeException(e);
+            errorLogger.error("Illegal Argument Exception on {} in buy Position", e.getMessage());
         }
 
         return dao.save(newPosition);
@@ -58,6 +66,7 @@ public class PositionService {
     public void sell(String ticker) {
         Optional<Position> position = dao.findById(ticker);
         if (position.isEmpty()) {
+            errorLogger.error("Illegal Argument Exception, cannot sell stock shares you do not own");
             throw new IllegalArgumentException("Cannot sell stock shares you do not own");
         } else {
             dao.deleteById(ticker);

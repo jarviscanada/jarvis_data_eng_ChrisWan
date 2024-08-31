@@ -1,5 +1,6 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.util;
 
+import ca.jrvs.apps.jdbc.dto.Quote;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonNode;
@@ -13,11 +14,15 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.sql.Timestamp;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class QuoteHttpHelper {
 
     private String apiKey;
     private OkHttpClient client;
+    static final Logger infoLogger = LoggerFactory.getLogger("infoLogger");
+    static final Logger errorLogger = LoggerFactory.getLogger("errorLogger");
 
     public QuoteHttpHelper(String apiKey, OkHttpClient client) {
         this.apiKey = apiKey;
@@ -32,6 +37,7 @@ public class QuoteHttpHelper {
      */
     public Quote fetchQuoteInfo(String symbol) throws IllegalArgumentException {
 
+        infoLogger.info("Started fetchQuoteInfo");
         Quote quote = new Quote();
         Dotenv dotenv = Dotenv.configure().load();
 
@@ -57,15 +63,15 @@ public class QuoteHttpHelper {
             return quote;
 
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            errorLogger.error("Interrupted Exception on {}", e.getMessage());
         } catch (JsonMappingException e) {
-            e.printStackTrace();
+            errorLogger.error("Json Mapping Exception on {}", e.getMessage());
         } catch (JsonProcessingException e) {
-            e.printStackTrace();
+            errorLogger.error("Json Processing Exception on {}", e.getMessage());
         } catch (IOException e) {
-            e.printStackTrace();
+            errorLogger.error("IO Exception on {}", e.getMessage());
         } catch (IllegalArgumentException e) {
-            e.printStackTrace();
+            errorLogger.error("Illegal Argument Exception on {}", e.getMessage());
         }
         return quote;
     }

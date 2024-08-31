@@ -1,4 +1,4 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.dao;
 
 import java.util.Optional;
 

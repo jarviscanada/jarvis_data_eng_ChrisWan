@@ -1,6 +1,4 @@
-package ca.jrvs.apps.jdbc;
-
-import ca.jrvs.apps.jdbc.util.DataAccessObject;
+package ca.jrvs.apps.jdbc.practice;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

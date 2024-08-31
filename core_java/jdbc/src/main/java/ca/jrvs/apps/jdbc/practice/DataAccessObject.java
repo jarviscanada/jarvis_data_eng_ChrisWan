@@ -1,4 +1,4 @@
-package ca.jrvs.apps.jdbc.util;
+package ca.jrvs.apps.jdbc.practice;
 
 import java.sql.*;
 import java.util.List;

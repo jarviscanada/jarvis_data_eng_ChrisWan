@@ -1,4 +1,11 @@
-package ca.jrvs.apps.jdbc;
+package ca.jrvs.apps.jdbc.controller;
+
+import ca.jrvs.apps.jdbc.dto.Position;
+import ca.jrvs.apps.jdbc.dto.Quote;
+import ca.jrvs.apps.jdbc.service.PositionService;
+import ca.jrvs.apps.jdbc.service.QuoteService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Optional;
 import java.util.Scanner;
@@ -7,6 +14,8 @@ public class StockQuoteController {
 
     private QuoteService quoteService;
     private PositionService positionService;
+    static final Logger infoLogger = LoggerFactory.getLogger("infoLogger");
+    static final Logger errorLogger = LoggerFactory.getLogger("errorLogger");
 
     public StockQuoteController(QuoteService quoteService, PositionService positionService){
         this.quoteService = quoteService;
@@ -20,10 +29,12 @@ public class StockQuoteController {
 
         Scanner scanner = new Scanner(System.in);
         int userInput;
+        infoLogger.info("Started initClient");
 
         do {
             displayOptions();
             userInput = scanner.nextInt();
+
 
             switch (userInput) {
                 case 0:
@@ -31,20 +42,26 @@ public class StockQuoteController {
                     System.out.println("Exiting....");
                     scanner.close();
                     System.out.println("You have successfully exited the program");
+                    infoLogger.info("Successfully exited the system");
                     return;
                 case 1:
                     this.viewStockQuote(scanner);
+                    infoLogger.info("Successfully view a stock quote");
                     break;
                 case 2:
                     this.viewAllPositions();
+                    infoLogger.info("Successfully view all positions");
                     break;
                 case 3:
                     this.sellStock(scanner);
+                    infoLogger.info("Successfully sold a stock");
                     break;
                 case 4:
                     this.buyStock(scanner);
+                    infoLogger.info("Successfully bought a stock");
                     break;
                 default:
+                    errorLogger.error("Invalid parameters provided to the prompt");
                     System.out.println("Invalid choice. Please enter a number between 0 and 4.");
             }
 
@@ -67,7 +84,7 @@ public class StockQuoteController {
                 System.out.println("You have successfully made a purchase");
             }
         } catch (IllegalArgumentException e) {
-            System.out.println("You do not have any positions on stock " + symbol);
+            errorLogger.error("Illegal Argument Exception on {} in buyStock", e.getMessage());
         }
     }
 
@@ -79,7 +96,7 @@ public class StockQuoteController {
             this.positionService.sell(symbol);
             System.out.println("You have sucessfully sell all of your shares of: " + symbol);
         } catch (IllegalArgumentException e) {
-            System.out.println("You do not have any positions on stock " + symbol);
+            errorLogger.error("Illegal Argument Exception on {} in sellStock", e.getMessage());
         }
     }
 
@@ -93,7 +110,7 @@ public class StockQuoteController {
                 System.out.println(quote.toString());
             }
         } catch (IllegalArgumentException e){
-            System.out.println("The provided stock symbol does not exist");
+            errorLogger.error("Illegal Argument Exception on {} in viewStockQuote", e.getMessage());
         }
     }
 
