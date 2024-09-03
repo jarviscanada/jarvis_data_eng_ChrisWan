@@ -12,7 +12,8 @@ Dockerizing the application simplifies distribution and deployment.
 To use this application pull the given repository and then install the package from the 
 grep-1.0-SNAPSHOT.jar file. 
 
-#Implemenation
+# Implemenation
+
 ## Pseudocode
 `process` method pseudocode.
 ```
@@ -54,7 +55,10 @@ This will ensure that these functionalities will behave properly and can continu
 in the process method (running the entire application).  
 
 # Deployment
-How you dockerize your app for easier distribution?
+The application is Dockerized for easier distribution. A Dockerfile is used to create a Docker image containing the Java application. 
+The image can be built and run using Docker commands, enabling consistent execution across different environments.
 
 # Improvement
-List three things you can improve in this project.
+1. Improving performance to handle larger files (This can be done by doing techniques like parallel processing to handle larger datasets more efficiently)
+2. Adding a UI component to the application
+3. Handling different types of file formats (currently it only handle text files)
