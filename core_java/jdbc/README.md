@@ -14,7 +14,7 @@ Following standard JDBC practices, the application's structure is organized into
 ensuring a clear separation of concerns.
 
 ## ER Diagram
-![Stock Quote ERD](jdbc/src/main/resources/Stock_quote_ERD.png)
+![Stock_quote_ERD](https://github.com/user-attachments/assets/bc54da7b-152a-45c0-a7ac-392e30d3b869)
 
 ## Design Patterns
 The application utilizes both the Data Access Object (DAO) and Repository design patterns. 
