@@ -1,0 +1,75 @@
+2024-09-02 02:06:50 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 02:14:17 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 02:14:17 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
+2024-09-02 02:51:50 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 02:51:50 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
+2024-09-02 03:04:50 ERROR errorLogger:164 - An SQL Exception had occurred when trying to DELETE all quotes, error message ERROR: update or delete on table "quote" violates foreign key constraint "symbol_fk" on table "position"
+  Detail: Key (symbol)=(Stock1) is still referenced from table "position".
+2024-09-02 03:05:11 ERROR errorLogger:154 - An SQL Exception had occurred when trying to DELETE a quote based on Id, error message ERROR: update or delete on table "quote" violates foreign key constraint "symbol_fk" on table "position"
+  Detail: Key (symbol)=(Stock1) is still referenced from table "position".
+2024-09-02 03:06:37 ERROR errorLogger:154 - An SQL Exception had occurred when trying to DELETE a quote based on Id, error message ERROR: update or delete on table "quote" violates foreign key constraint "symbol_fk" on table "position"
+  Detail: Key (symbol)=(Stock1) is still referenced from table "position".
+2024-09-02 03:21:53 ERROR errorLogger:74 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:21:53 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:22:36 ERROR errorLogger:74 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:22:36 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:24:05 ERROR errorLogger:74 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:24:05 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:25:41 ERROR errorLogger:74 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:25:41 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:28:39 ERROR errorLogger:75 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:28:39 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:29:08 ERROR errorLogger:75 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:29:08 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:29:25 ERROR errorLogger:75 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:29:25 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:29:55 ERROR errorLogger:74 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:29:55 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:31:25 ERROR errorLogger:74 - Illegal Argument Exception on No data for the symbol was found. Make sure the symbol is valid
+2024-09-02 03:31:25 ERROR errorLogger:64 - An SQL Exception had occurred when trying to INSERT a new quote, error message ERROR: null value in column "symbol" of relation "quote" violates not-null constraint
+  Detail: Failing row contains (null, 0.00, 0.00, 0.00, 0.00, 0, null, 0.00, 0.00, null, null).
+2024-09-02 03:41:48 ERROR errorLogger:69 - Illegal Argument Exception, cannot sell stock shares you do not own
+2024-09-02 03:41:48 ERROR errorLogger:69 - Illegal Argument Exception, cannot sell stock shares you do not own
+2024-09-02 03:41:50 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-02 03:41:50 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
+2024-09-02 03:47:05 ERROR errorLogger:69 - Illegal Argument Exception, cannot sell stock shares you do not own
+2024-09-02 03:47:06 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-02 03:47:06 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
+2024-09-02 03:48:25 ERROR errorLogger:69 - Illegal Argument Exception, cannot sell stock shares you do not own
+2024-09-02 03:48:25 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-03 19:10:18 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-03 19:10:48 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-03 19:10:48 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
+2024-09-03 19:11:23 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-03 19:11:23 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
+2024-09-03 19:11:50 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-03 19:11:50 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
+2024-09-03 19:25:38 ERROR errorLogger:69 - Illegal Argument Exception, cannot sell stock shares you do not own
+2024-09-03 19:25:40 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-03 19:25:40 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
+2024-09-03 19:26:11 ERROR errorLogger:58 - An SQL Exception had occurred when trying to UPDATE a position on ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 2 must round to an absolute value less than 10^8.
+2024-09-03 19:26:34 ERROR errorLogger:58 - An SQL Exception had occurred when trying to UPDATE a position on ERROR: numeric field overflow
+  Detail: A field with precision 10, scale 2 must round to an absolute value less than 10^8.
+2024-09-03 19:26:46 ERROR errorLogger:56 - Illegal Argument Exception on You cannot buy more shares than the available volume in buy Position
+2024-09-03 19:26:46 ERROR errorLogger:47 - An SQL Exception had occurred when trying to INSERT a new position on ERROR: null value in column "symbol" of relation "position" violates not-null constraint
+  Detail: Failing row contains (null, 0, 0.00).
