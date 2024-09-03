@@ -1,0 +1,470 @@
+2024-09-02 01:36:34 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 01:36:49 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 02:06:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:06:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:06:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:06:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:06:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:06:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:06:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:06:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:06:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:06:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:06:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:06:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:06:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:06:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:06:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:06:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:14:17 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:14:17 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:14:17 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:14:17 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:14:17 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:14:17 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:14:17 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:14:17 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:14:17 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:14:17 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:14:17 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:14:17 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:14:17 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:14:17 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:14:17 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:14:17 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:14:17 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:14:17 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:14:17 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:14:17 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:14:17 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:17:12 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:17:12 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:17:12 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:17:12 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:17:12 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:17:12 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:17:12 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:17:12 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:17:12 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:17:12 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:17:12 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:17:12 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:17:12 INFO  infoLogger:51 - Updating the position values
+2024-09-02 02:17:12 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:17:12 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:17:12 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:17:12 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:17:12 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:18:49 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:18:49 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:18:49 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:18:49 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:18:49 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:18:49 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:18:49 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:18:49 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:18:49 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:18:49 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:18:49 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:18:49 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:18:49 INFO  infoLogger:51 - Updating the position values
+2024-09-02 02:18:49 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:18:49 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:18:49 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:18:49 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:18:49 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:20:19 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:20:19 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:20:19 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:20:19 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:20:19 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:20:19 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:20:19 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:20:19 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:20:19 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:20:19 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:20:19 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:20:20 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:20:20 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:20:20 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:20:20 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:21:06 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:21:06 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:21:06 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:21:06 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:21:06 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:21:06 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:21:06 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:21:06 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:21:06 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:21:06 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:21:06 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:21:07 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:21:07 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:21:07 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:21:07 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:21:47 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:21:47 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:21:47 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:21:47 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:21:47 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:21:47 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:21:47 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:21:47 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:21:47 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:21:47 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:21:47 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:21:47 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:21:47 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:21:47 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:21:47 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:51:20 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:51:20 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:51:20 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:51:20 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:51:20 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:51:20 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:51:20 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:51:20 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:51:20 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:51:20 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:51:20 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:51:20 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:51:20 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:51:20 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:51:20 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:51:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:51:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:51:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:51:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:51:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:51:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:51:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:51:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:51:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:51:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:51:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:51:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:51:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:51:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:51:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:51:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:51:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:51:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:51:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:51:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:51:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:51:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:53:37 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:53:37 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:53:37 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 02:53:37 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 02:53:37 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:53:37 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:53:37 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:53:37 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 02:53:37 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:53:37 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 02:53:37 INFO  infoLogger:121 - DELETING all positions
+2024-09-02 02:53:37 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:53:37 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 02:53:37 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:53:37 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 02:53:37 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 02:53:37 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:00:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:00:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:00:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:00:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:00:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:00:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:00:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:00:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:00:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:00:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:00:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:00:50 INFO  infoLogger:68 - Updating the quote values
+2024-09-02 03:00:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:00:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:00:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:00:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:00:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:00:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:02:48 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:02:48 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:02:48 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:02:48 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:02:48 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:02:48 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:02:48 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:02:48 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:02:48 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:02:48 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:02:48 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:02:48 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:02:48 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:02:48 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:02:48 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:02:48 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:02:57 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:02:57 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:02:57 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:02:57 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:02:57 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:02:57 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:02:57 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:02:57 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:02:57 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:02:57 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:02:57 INFO  infoLogger:124 - SELECTING all quotes from DB
+2024-09-02 03:02:57 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:02:57 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:02:57 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:02:57 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:04:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:04:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:04:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:04:50 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:04:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:04:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:04:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:04:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:04:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:04:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:04:50 INFO  infoLogger:161 - DELETING all quotes
+2024-09-02 03:04:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:04:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:04:50 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:04:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:04:50 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:05:11 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:05:11 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:05:11 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:05:11 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:05:11 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:05:11 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:05:11 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:05:11 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:05:11 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:05:11 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:05:11 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:05:11 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:05:11 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:05:11 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:05:11 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:05:11 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:06:37 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:06:37 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:06:37 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:06:37 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:06:37 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:06:37 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:06:37 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:06:37 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:06:37 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:06:37 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:06:37 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:06:37 INFO  infoLogger:121 - DELETING all positions
+2024-09-02 03:06:37 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:06:37 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:06:37 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:06:37 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:06:37 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:06:49 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:06:49 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:06:49 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:06:49 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:06:49 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:06:49 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:06:49 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:06:49 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:06:49 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:06:49 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:06:49 INFO  infoLogger:121 - DELETING all positions
+2024-09-02 03:06:49 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:06:49 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:06:49 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:06:49 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:06:49 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:06:49 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:07:04 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:07:04 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:07:04 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:07:04 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:07:04 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:07:04 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:07:04 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:07:04 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:07:04 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:07:04 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:07:04 INFO  infoLogger:121 - DELETING all positions
+2024-09-02 03:07:04 INFO  infoLogger:161 - DELETING all quotes
+2024-09-02 03:07:04 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:07:04 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:07:04 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:07:04 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:07:04 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:07:04 INFO  infoLogger:150 - DELETING a quote based off Id
+2024-09-02 03:14:10 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:14:10 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:14:10 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:14:10 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:14:12 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:14:12 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:14:12 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:15:18 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:15:18 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:21:03 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:21:03 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:21:34 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:21:34 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:21:35 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:21:51 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:21:51 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:21:53 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:21:53 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:21:53 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:22:34 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:22:34 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:22:36 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:22:36 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:22:36 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:24:03 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:24:03 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:24:05 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:24:05 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:24:05 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:25:39 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:25:39 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:25:41 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:25:41 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:25:41 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:28:38 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:28:38 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:28:39 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:28:39 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:28:39 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:29:06 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:29:06 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:29:08 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:29:08 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:29:08 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:29:23 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:29:23 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:29:25 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:29:25 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:29:25 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:29:54 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:29:54 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:29:55 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:29:55 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:29:55 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:31:24 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:31:24 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:31:25 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:31:25 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:31:25 INFO  infoLogger:49 - Inserting the new quote
+2024-09-02 03:41:48 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:41:48 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:41:48 INFO  infoLogger:31 - Buying a position
+2024-09-02 03:41:48 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:41:48 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:41:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:41:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:41:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:41:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:41:50 INFO  infoLogger:31 - Buying a position
+2024-09-02 03:41:50 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:41:50 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:41:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:41:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:41:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:41:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:41:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:46:12 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:46:12 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:47:05 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:47:05 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:47:05 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-02 03:47:05 INFO  infoLogger:31 - Buying a position
+2024-09-02 03:47:05 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:47:05 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:47:06 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:47:06 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:47:06 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:47:06 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:47:06 INFO  infoLogger:31 - Buying a position
+2024-09-02 03:47:06 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-02 03:47:06 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-02 03:47:06 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-02 03:47:06 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:47:06 INFO  infoLogger:37 - Saving Position entity
+2024-09-02 03:47:06 INFO  infoLogger:68 - Getting one position by Id
+2024-09-02 03:47:06 INFO  infoLogger:40 - Inserting the new position
+2024-09-02 03:48:25 INFO  infoLogger:31 - Buying a position
+2024-09-02 03:48:25 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:10:18 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:10:47 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:10:47 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:10:47 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-03 19:10:48 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-03 19:10:48 INFO  infoLogger:37 - Saving Position entity
+2024-09-03 19:10:48 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:10:48 INFO  infoLogger:40 - Inserting the new position
+2024-09-03 19:11:22 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:11:22 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:11:22 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-03 19:11:23 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-03 19:11:23 INFO  infoLogger:37 - Saving Position entity
+2024-09-03 19:11:23 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:11:23 INFO  infoLogger:40 - Inserting the new position
+2024-09-03 19:11:49 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:11:49 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:11:49 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-03 19:11:50 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-03 19:11:50 INFO  infoLogger:37 - Saving Position entity
+2024-09-03 19:11:50 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:11:50 INFO  infoLogger:40 - Inserting the new position
+2024-09-03 19:24:10 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:25:38 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:25:38 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:25:38 INFO  infoLogger:110 - DELETING a position based off Id
+2024-09-03 19:25:38 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:25:38 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:25:38 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-03 19:25:40 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-03 19:25:40 INFO  infoLogger:37 - Saving Position entity
+2024-09-03 19:25:40 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:25:40 INFO  infoLogger:40 - Inserting the new position
+2024-09-03 19:25:40 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:25:40 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:25:40 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-03 19:25:40 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-03 19:25:40 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:25:40 INFO  infoLogger:37 - Saving Position entity
+2024-09-03 19:25:40 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:25:40 INFO  infoLogger:40 - Inserting the new position
+2024-09-03 19:26:10 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:26:10 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:26:10 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-03 19:26:11 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-03 19:26:11 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:26:11 INFO  infoLogger:37 - Saving Position entity
+2024-09-03 19:26:11 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:26:11 INFO  infoLogger:51 - Updating the position values
+2024-09-03 19:26:32 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:26:32 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:26:32 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-03 19:26:34 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-03 19:26:34 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:26:34 INFO  infoLogger:37 - Saving Position entity
+2024-09-03 19:26:34 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:26:34 INFO  infoLogger:51 - Updating the position values
+2024-09-03 19:26:45 INFO  infoLogger:31 - Buying a position
+2024-09-03 19:26:45 INFO  infoLogger:29 - Fetching Quote Data From API
+2024-09-03 19:26:45 INFO  infoLogger:40 - Started fetchQuoteInfo
+2024-09-03 19:26:46 INFO  infoLogger:93 - Getting one quote by Id
+2024-09-03 19:26:46 INFO  infoLogger:37 - Saving Position entity
+2024-09-03 19:26:46 INFO  infoLogger:68 - Getting one position by Id
+2024-09-03 19:26:46 INFO  infoLogger:40 - Inserting the new position
+2024-09-03 19:31:18 INFO  infoLogger:31 - Buying a position
